@@ -1,0 +1,7 @@
+base   barcodes
+author Matthias Lohr
+email  mail@mlohr.com
+date   2023-01-29
+name   Barcodes
+desc   Barcodes (1D & 2D) for DokuWiki
+url    https://gitlab.com/MatthiasLohr/dokuwiki-barcodes

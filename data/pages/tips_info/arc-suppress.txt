@@ -1,0 +1,12 @@
+{{indexmenu>:tips_info|js tsort}}
+
+====== Arc Suppression Info ======
+
+[[http://www.paktron.com/pdf/Quencharc_QRL.pdf|R C Snubber Circuit]]
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+<html><br/></html>
+{{tag>snubber quencharc relay noise suppress}}

@@ -1,0 +1,16 @@
+{{indexmenu>:about|js tsort}}
+====== Hours ======
+
+===== Regularly Scheduled Walk-In Hours =====
+
+The Electronics Shop in __//room 115//__ of the PHYSICS building (Jesse Beams Laboratory, //382// McCormick Rd) is open to walk-in visitors during the following times:
+
+  *  __Monday through Friday from //1130//a to //430//p__
+  
+
+<html><br/></html>
+//Note that it may be closed on University holidays and other events.// The walk-in hours are a convenient time to bring equipment for repair, pick-up equipment or to speak directly with an Electronics Shop staff member.
+
+We are also available 24/7 through the [[about:contact|contact form]]. 
+
+Alternatively you may phone Stephen during business hours at //__434-982-5594__//.

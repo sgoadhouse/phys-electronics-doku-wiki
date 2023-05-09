@@ -1,0 +1,124 @@
+
+~~META:
+title = Schengen VISA for CERN
+~~
+
+{{indexmenu>:tips_info|js tsort}}
+
+====== Schengen VISA for CERN ======
+
+As of July 2022, we are currently in the middle of acquiring a multiple entry, short-term VISA (category C) for the [[https://en.wikipedia.org/wiki/Schengen_Area|Schengen Area]] through the Swiss Embassy in order to be able to carry on electronics design and testing while occasionally on site at CERN where many of our projects either are or will be installed.
+
+IMPORTANT: We are only electronics experts and not experts on law nor consular requirements. This is merely an accounting of our experience with this process in the hope that it makes the process more smooth for others.
+
+First off, the most frustrating and confusing part of this process is whether a VISA is required for "short term" travel (less than 90 days in a rolling 180 day window). Some people had advised that since all funds come from US sources and not from Switzerland or any other Schengen Zone country that no VISA is required. Others had recommended applying for a VISA, which is not simple, but gave no authority on whether it was truly needed.
+
+What Switzerland says: https://www.eda.admin.ch/countries/usa/en/home/visa/entry-ch/up-90-days/do-i-need-a-schengen-visa.html Note the exception (V1) "Obligation to hold a visa with regard to exercising gainful occupation". The confusion seems to stem from the phrase "exercising gainful occupation" and how one may interpret this. Also, if you have 8 or less days "exercising gainful occupation" at CERN per calendar year, then no VISA is needed.
+
+From our personal discussion with a Swiss Embassy VISA interviewer, this exception **does** apply to US citizens performing work for their US institute at CERN and the effort to apply for a VISA was not wasted because the VISA **is required**. Admittedly, parts of the conversation were confusing but the interviewer made clear that they were examining the supplied documents to confirm that a VISA was required before accepting the application. In fact, since our documented, upcoming travel did not violate the 8-day rule, the VISA application was almost denied. What saved the application was that the interviewer took the documents to discuss the situation with a colleague and came back saying that there is a special arrangement with CERN and that having the CERN invitation letter was critical to allowing the VISA application to continue.
+
+Also, we were told that the VISA will be valid up to the end of the contract period as documented in the CERN invitation letter, which can be several years. If the contract period gets renewed in the future, it is likely that a new VISA application will need to be made but if it is within 59 months (nearly 5 years) since taking of fingerprints, the process should not require an in-person interview at the Embassy (unless policies change).
+
+One minor benefit of going through this process is that beginning in 2023, travelers without a VISA to the Schengen Zone will require an [[https://www.schengenvisainfo.com/etias/|ETIAS]] application and approval. It is said to be simpler than a VISA application with everything conducted online and an approval is received "within minutes" but it could require a manual check which can take up to 2 weeks. Having a short-term VISA should bypass this new requirement for US travelers.
+
+UPDATE: Our passport with a new Schengen VISA stamp arrived 3 days later. We drove up on a Monday in July for the interview and had passport+VISA in hand by the following Thursday. This was with a UPS 2-day label which only took 1 day to deliver. The VISA is indeed MULT, or multiple entry, and is valid until the last day of our CERN contract as documented in our CERN letter. Your experience may likely be different but it is possible to complete the process quickly if your interview appointment is not too far away and the embassy is processing VISAs quickly.
+===== Steps Followed  =====
+
+These steps assume that you are already registered with CERN and have an associate member of the personnel (MPA) contract with CERN. See the [[https://twiki.cern.ch/twiki/bin/view/Main/USCMSProjectOfficeCERN|US-CMS GUIDE TO COMING TO AND LIVING AT CERN]] for information on how to accomplish this as well as some other VISA information.
+
+Also see: [[https://www.eda.admin.ch/countries/usa/en/home/visa/entry-ch/up-90-days/documents-schengen.html|Official Swiss Schengen VISA application instructions]]
+
+  - **Book round-trip air travel and hotel to arrive and reside in Switzerland**
+    - You **must** have flight and hotel reservations before you can apply for a VISA
+    - flying into another country or staying in another country, like France, even if you intend to perform most work at CERN, //may// result in being re-directed to the French Embassy
+    - the travel cannot be more than 6 months away
+    - from our experience, the earliest in-person interview appointment was 6 weeks from the date of the VISA application submittal. The Swiss Embassy says to allow up to 15 (business) days for processing. Add in a few days for shipping back your passport with hopefully a new VISA stamp. So the entire process can take 10 weeks or more depending on when the next appointment is available.
+    - therefore, best if travel is 3 to 6 months away
+    - We only had 7 weeks before travel but we kept checking the appointment schedule daily and found an earlier appointment with only 1 day's notice, so shorter advance timing is possible with diligence, flexibility and luck.
+  - **[[https://espace.cern.ch/Invitationletters/USCMS/SitePages/Home.aspx|Request a CERN invitation letter]]**
+    - Choose the link for "Submit a request for your invitation letter - MULTIPLE ENTRIES VISA"
+      - This is a short-term VISA that allows for multiple entries into the Schengen Zone
+    - having a letter is incredibly important and appears to smooth the process
+  - **Register your travel with UVa**
+    - if UVa Faculty or Staff, use: https://iso.virginia.edu/faculty-staff-travel
+      - about 2 (business) days later, you will receive your CISI International Medical Insurance policy which is required documentation that you submit at your VISA interview
+    - If UVa Student, this appears to be the registration link but we are unfamiliar with the process for students: https://educationabroad.virginia.edu/university-travel-registry
+  - **[[https://www.eda.admin.ch/countries/usa/en/home/visa/entry-ch/up-90-days/documents-schengen.html|Apply for the short-term, category "C", Schengen VISA]] with the Swiss Embassy**
+    - See "Visa application form" section for the link to the online application
+    - After an initial short form, you will get a personal link via email for your application
+    - The link says it can be used up to 48 hours and can be used to redo the application to fix a mistake
+    - Our experience was that a mistake was found after 48 hours, so we had to create a new application form with a new ID. This new form was the one that we printed out, signed and supplied to the embassy. The interviewer saw both applications in their computer system and asked about it. After a brief explanation, the newer form was accepted.
+    - Section Details
+      - "Information on the employer and/or training facility of the applicant"
+        - Although UVa is a training facility, if Faculty or Staff, selecting the Training Facility choice implies that you are a student and confuses the process which risks denial of a VISA. So be sure to select "Employer"
+        - For the address, the number, 382, is entered separately and follows the street name. Also, be sure to enter the P. O. Box number of the Physics dept., 400714
+      - "Planned travel"
+        - Number of entries: select "MULT"
+      - "Inviting Organisation"
+        - We put the name, email, and phone number of the person signing our CERN invitation letter as the contact person
+        - Note that there is a new CERN address: Espl. des Particules 1, 1211 Meyrin, Geneva
+        - It is possible to click the '+' button, select "Hotel" and enter the Hotel information. We did not do this but accommodations were specifically asked during the interview and it may help to add this information on the application. If staying at the CERN Hostel, the main CERN address seems to be the best address to use for the Hostel.
+        - "Travel and living expenses"
+          - We answered "Yes" under "By the applicant" for Cash and Credit Card as well as under "Other" for "All expenses covered during stay", "Accommodation provided" and "Transport prepaid".
+          - Under "By a host", which means CERN, all were answered as "No"
+    - Save a PDF of the application when offered
+    - Having a CERN invitation letter avoids the VISA application fee, so at the end of the application, choose the "no online fee" option and do not enter any payment
+  - **Schedule Interview Appointment**
+    - After submission of the application, a link should be emailed to you that allows you to choose an appointment time.
+    - This same link can be used later to attempt to reschedule and check if an earlier time is available.
+  - **Gather documents**
+    - [[https://www.eda.admin.ch/content/dam/countries/countries-content/united-states-of-america/en/131.30_Merkblatt_Visa_for_business.pdf|Official List from the Swiss Embassy]]
+      - The below list is the set of documents that were taken to the interview but be sure to consult the above list in case the policy is updated since this was written.
+    - Print, sign and date your VISA application
+    - Get Passport Photos
+      - Walmart has the cheapest price ($8) but a limited number of employees trained to operate the equipment. We were denied photos from Walmart due to this and asked to come back 6 hours later when a trained employee was said to be on duty.
+      - Staples charges $15 but had a trained employee available immediately and it took only 10 minutes to get the photos
+      - NOTE: [[https://home-affairs.ec.europa.eu/system/files_en?file=2016-12/icao_photograph_guidelines_en.pdf|Photo Requirements]]
+        - We removed eyeglasses for the photos to avoid running into a potential issue
+    - Valid Passport
+       - note the requirements from the documentation list
+    - Photocopy of Passport photo, data and signature pages
+      - This was specifically requested during the interview
+      - A colleague failed to supply this and the interviewer said they would photocopy it but we suggest not risking how generous your interviewer may be that day and supplying the photocopy yourself.
+    - Notarized copy of proof of residency
+      - the examples given are only for non-US citizens (green card, H1B visa, etc.)
+      - For this, we printed out one month's personal bank statement which has our home address and had it notarized by our credit union
+      - We were told that for US citizens, the passport was sufficient for residency proof
+      - However, a bank statement was specifically requested during the interview even though this is not a clear requirement from the documentation instructions.
+      - //Therefore, it is recommended to bring a notarized copy of one month's bank statement.// You can supply more months if you believe it may help your case that you have sufficient funds for travel.
+    - Print out of your Flight Reservation
+      - We had flights for other segments of our travel outside of CERN/Switzerland and therefore purchased from different vendors. However, we used http://tripit.com to consolidate them all and supplied a simple TripIt itinerary with the details, like airplane equipment, disabled so that everything fit on a single sheet of paper.
+    - Signed Letter of Invitation from CERN
+      - Extremely important
+      - We were emailed the letter and never sent an original as is mentioned on some CERN information pages
+      - We printed out the digital version we received and it seemed to be sufficient
+      - CERN states in the letter to, "[e]xplain that you will become a member of the CERN personnel entitled to freedom of access to, and residence on, Swiss territory under Article 12 of the Status Agreement between CERN and Switzerland dated 11 June 1955". Our interview may have gone a little more smoothly had we remembered to do this and point out this detail in the letter. However, luckily the supervisor knew this fact.
+    - A recent letter from your employer in the US
+      - Email the Physics Dept. HR personnel using phys-hr@virginia.edu to request this.
+      - Need: Your name, position and salary
+      - A colleague had a 5-month-old letter but it lacked the salary. So they submitted the letter and a print out of a recent paystub, both of which were accepted.
+    - Letter from insurance company //and// a copy of your insurance card
+      - Once you receive the confirmation from CISI, print out:
+        - cover letter which has insurance card
+        - letter addressed to the "The Consul General of Switzerland"
+      - Be sure to double check the travel dates listed on your insurance documents. Ours were wrong initially and we had to request corrected documents.
+    - A prepaid, self-addressed return envelope with a tracking number of a secure carrier
+      - The choice of carrier is yours
+      - The US Post Office currently has abysmal service in the Charlottesville area and should probably only be used as a last resort
+      - UPS allows an established online account to create a "Return" label to supply a label for a "customer" to return an item. This can be used along with a UPS Letter envelope. Talk with the UVa Physics stock room attendant to see if they can supply this. Set both the "Ship To:" and "Ship From:" addresses to yours. "Shipper Information" is the Swiss Embassy. Two Day service is recommended unless the Passport + VISA is needed as soon as possible.
+      - Pack N Mail (36 Pantops Center, Charlottesville, VA 22911) has also been used in the past to purchase a FedEx return label and envelope
+  - **Bring all of the above to your appointment**
+    - The online application should tell you which embassy location to use
+    - If your official residence is in Virginia, the location should be the Swiss Embassy in Washington, DC
+      - Be sure to double check the current address as the Swiss Embassy is currently undergoing construction and has been temporarily moved until Fall 2022.
+      - Both the temporary and future location have 2 hour street parking nearby as long as a space is available
+      - The [[https://www.eda.admin.ch/countries/usa/en/home/representations/embassy-washington.html/content/contacts/en/EDAVis/W/80|Swiss Embassy]] also claims the future location will have limited parking available but this appears to have been written before the construction began.
+ 
+Good Luck! REMINDER: This is only documentation of our experience. YMMV (your mileage may vary) especially the longer this information ages and processes change.
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+<html><br/></html>
+{{tag>"VISA" Schengen CERN Switzerland}}

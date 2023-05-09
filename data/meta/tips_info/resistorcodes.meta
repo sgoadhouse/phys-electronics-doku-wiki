@@ -1,0 +1,21 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1335283505;s:8:"modified";i:1656092292;}s:7:"creator";s:14:"Larry St. John";s:11:"last_change";a:7:{s:4:"date";i:1656092292;s:2:"ip";s:15:"199.111.240.147";s:4:"type";s:1:"E";s:2:"id";s:23:"tips_info:resistorcodes";s:4:"user";s:6:"las2xa";s:3:"sum";s:27:"[Standard Resistor Values] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"las2xa";s:14:"Larry St. John";}s:4:"user";s:0:"";s:9:"indexmenu";b:1;s:5:"title";s:25:"Resistor Color Codes Info";s:11:"description";a:2:{s:15:"tableofcontents";a:3:{i:0;a:4:{s:3:"hid";s:25:"resistor_color_codes_info";s:5:"title";s:25:"Resistor Color Codes Info";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:24:"standard_resistor_values";s:5:"title";s:24:"Standard Resistor Values";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:2;a:4:{s:3:"hid";s:21:"need_more_information";s:5:"title";s:22:"Need More Information?";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:377:"tips_info index
+
+
+Resistor Color Codes Info
+
+Here is a simple diagram of the resistor color codes 
+(Thanks to Marlin P. Jones & Assoc. Inc. for this diagram)
+
+[Resistor Color Codes Info]
+
+Standard Resistor Values
+
+Electrical Engineering Community
+
+Resistor Tables - Standard Resistor Tables (Based on EIA Preferred Values)
+
+Wikipedia
+
+Resistors
+
+Marlin P. Jones and Assoc. Inc.";}s:8:"relation";a:3:{s:5:"media";a:2:{s:17:"tips_info:rcc.png";b:1;s:38:"tips_info:standard_resistor_values.pdf";b:1;}s:10:"references";a:1:{s:13:"about:contact";b:1;}s:10:"firstimage";s:17:"tips_info:rcc.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1335283505;s:8:"modified";i:1656092292;}s:7:"creator";s:14:"Larry St. John";s:11:"last_change";a:7:{s:4:"date";i:1656092292;s:2:"ip";s:15:"199.111.240.147";s:4:"type";s:1:"E";s:2:"id";s:23:"tips_info:resistorcodes";s:4:"user";s:6:"las2xa";s:3:"sum";s:27:"[Standard Resistor Values] ";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"las2xa";s:14:"Larry St. John";}s:4:"user";s:0:"";}}

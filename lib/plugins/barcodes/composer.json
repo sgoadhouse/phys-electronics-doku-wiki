@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "name": "Matthias Lohr",
+      "email": "mail@mlohr.com",
+      "homepage": "https://mlohr.com/"
+    }
+  ],
+  "require": {
+    "jucksearm/php-barcode": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DokuWiki\\Barcodes\\": "lib"
+    }
+  }
+}

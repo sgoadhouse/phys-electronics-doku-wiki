@@ -1,0 +1,204 @@
+{{indexmenu>:projects|js tsort}}
+====== Sensor Data ======
+
+<html>
+
+  <div class="content">
+    <div id="everything_x" style="padding:5px; margin-top:5px;font-family: Arial, sans-serif; font-size: 12pt; font-weight: bold; color: #666666;">
+Live Feed of My Office Environmentals
+
+<table cellpadding="5" cellspacing="10">
+      <tr>
+        <td style="vertical-align: top" align="left"><div id="name_x" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div></td>
+<td style="vertical-align: top" align="right"><div id="content_x" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</td><td style="vertical-align: top" align="left"><div id="unit_x" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</tr>
+    <tr>
+        <td style="vertical-align: top"><div id="name_y" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top" align="right"><div id="content_y" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top"><div id="unit_y" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</tr>
+    <tr>
+        <td style="vertical-align: top"><div id="name_z" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top" align="right"><div id="content_z" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top"><div id="unit_z" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</tr>
+
+    <tr>
+        <td style="vertical-align: top"><div id="name_a" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top" align="right"><div id="content_a" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top"><div id="unit_a" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</tr>
+
+    <tr>
+        <td style="vertical-align: top"><div id="name_b" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top" align="right"><div id="content_b" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td><td style="vertical-align: top"><div id="unit_b" style="font-family: Arial, sans-serif; font-size: 15pt; font-weight: bold; color: #33CC66;"></div>
+</td>
+</tr>
+
+</table>
+
+<div id="time_div_x" style="font-family: Arial, sans-serif; font-size: 12pt; font-weight: bold;"></div>
+</div>
+
+<h2>Graphs of Latest Data</h2>
+<div class='widget-content'>
+<img alt='Temperature' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/Temp_F.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Temperature%20last%2024%20hours%20(F)&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+<div class='widget-content'>
+<img alt='Barometer' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/Baro_inHg.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Barometric%20Pressure%20last%2024%20hours%20(in%20 Hg)&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+
+<div class='widget-content'>
+<img alt='Relative Humidity' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/Humidity.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Relative%20Humidity%20last%2024%20hours%20(%25)&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+
+<div class='widget-content'>
+<img alt='Luminance' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/Luminance.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Luminance%20last%2024%20hours%20(lux)&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+
+<div class='widget-content'>
+<img alt='Light' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/Light.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Photo%20Cell%20last%2024%20hours&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+
+<div class='widget-content'>
+<img alt='Battery Voltage' height='228' id='Image1_img' src='http://api.cosm.com/v2/feeds/100050/datastreams/VoltageBat.png?key=TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g&timezone=-5&width=1000&height=300&colour=%23203ff3&duration=24hours&title=Battery%20Voltage%20last%2024%20hours%20(V)&show_axis_labels=true&detailed_grid=true&scale=auto' width='760'/>
+<br/>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script><script type="text/javascript" language="javascript">
+
+function writePage( divname,  text){
+	document.getElementById(divname).innerHTML=text;
+}	
+
+function PachubeAPI(options) {
+  // Magic Incantation to enforce instantiation
+  if (! (this instanceof arguments.callee)) {
+    return new arguments.callee(arguments);
+  }
+  
+  var self = this;
+  
+  self.settings = {};
+  if (options != undefined) {
+    self.settings = {
+      api_key: options.api_key
+    };
+  }
+  self.settings.api_url = 'http://api.cosm.com/v2/';
+}
+  
+PachubeAPI.prototype.datastreamGet = function(options) {
+  var self = this;
+  
+  var url = {
+    base: self.settings.api_url
+  , resource: options.resource
+  , format: ''
+  , key: '?key=' + (options.api_key || self.settings.api_key)
+  , interval: ''
+  , start: ''
+  , end: ''
+  , per_page: ''
+  };
+  if (options.interval != undefined) { url.interval = '&interval=' + options.interval }
+  if (options.start != undefined) { url.start = '&start=' + options.start.toISOString() }
+  if (options.end != undefined) { url.end = '&end=' + options.end.toISOString() }
+  if (options.per_page != undefined) { url.per_page = '&per_page=' + options.per_page }
+  
+  $.ajax({
+    url: url.base + url.resource + url.format + url.key + url.interval + url.start + url.end + url.per_page
+  , success: options.callback
+  , dataType: 'jsonp'
+  });
+};
+
+</script><script type="text/javascript" language="javascript">
+
+var pachubeAPI = new PachubeAPI({api_key:"TldvzhxJKoyzHaGtyh15ZpJE0BGSAKxneGZ1RExRZmcxOD0g"});
+var interval = 32000;
+var counter = interval;
+var update = 1000;
+var options1 = new Array();
+var options2 = new Array();
+var options3 = new Array();
+var options4 = new Array();
+var options5 = new Array();
+
+options1.resource = 'feeds/100050/datastreams/Temp_F';
+options2.resource = 'feeds/100050/datastreams/Baro_inHg';
+options3.resource = 'feeds/100050/datastreams/Humidity';
+options4.resource = 'feeds/100050/datastreams/Luminance';
+options5.resource = 'feeds/100050/datastreams/VoltageBat';
+
+options1.callback = function done(data){
+	writePage("name_x", "Temp:");	
+        writePage("content_x", data.current_value);
+        writePage("unit_x", " F");
+}
+
+options2.callback = function done(data){
+	writePage("name_y", "Pressure:");
+	writePage("content_y", data.current_value);
+	writePage("unit_y", " inHg");
+}
+
+options3.callback = function done(data){
+	writePage("name_z", "Humidity: " );
+	writePage("content_z", data.current_value );
+	writePage("unit_z", " %");
+}
+
+options4.callback = function done(data){
+	writePage("name_a", "Luminance: ");
+	writePage("content_a",  data.current_value );
+	writePage("unit_a", " lux");
+}
+
+options5.callback = function done(data){
+	writePage("name_b", "Input Volt: ");
+	writePage("content_b",  data.current_value );
+	writePage("unit_b", " V");
+	counter = interval;
+}
+
+function time_counter(){
+	var w = 200.0 * parseFloat(counter) / parseFloat(interval)
+
+	writePage("time_div_x", "<br />next update: " + counter/1000  + " Seconds" + " <br /><img src='http://community.cosm.com/files/bar_0.png' width='"+w+"' height='10' />");
+	counter -= update;
+	if (counter == -50) counter = 0;
+}
+
+pachubeAPI.datastreamGet(options1)
+setInterval ( function() { pachubeAPI.datastreamGet(options1) }, interval );
+pachubeAPI.datastreamGet(options2)
+setInterval ( function() { pachubeAPI.datastreamGet(options2) }, interval );
+pachubeAPI.datastreamGet(options3)
+setInterval ( function() { pachubeAPI.datastreamGet(options3) }, interval );
+pachubeAPI.datastreamGet(options4)
+setInterval ( function() { pachubeAPI.datastreamGet(options4) }, interval );
+pachubeAPI.datastreamGet(options5)
+setInterval ( function() { pachubeAPI.datastreamGet(options5) }, interval );
+
+time_counter();
+setInterval ( time_counter, update);
+
+</script>
+
+</html>
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].

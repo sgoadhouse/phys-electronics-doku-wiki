@@ -1,0 +1,40 @@
+{{indexmenu>:repair|js tsort noscroll}}
+====== Equipment Repair ======
+In addition to electronic design, the Electronics Shop also offers equipment repair services. Larry St. John is the primary repair technician and he has experience with many different types of equipment. These pages list some of the devices there were repaired within the Electronics Shop.
+
+//I have not had a chance to list repaired equipment, but rest assured many devices have been repaired within our walls.//
+
+<form>
+Action mail phys-electronics@virginia.edu sgoadhouse@virginia.edu
+Thanks "Thank you for your interest in equipment repair."
+
+Fieldset "Contact us for more information"
+Textbox  "Your Name"
+email "Your E-Mail Address"
+hidden  "Subject" "=Interest in Equipment Repair"
+textarea "Message"
+
+fieldset "Submit"
+submit
+</form>
+<html>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+</html>

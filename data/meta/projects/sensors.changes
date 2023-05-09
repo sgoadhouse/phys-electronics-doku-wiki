@@ -1,0 +1,31 @@
+1359397350	128.143.100.191	C	projects:sensors	sdg6h	created	
+1359397432	128.143.100.191	E	projects:sensors	sdg6h		
+1359397645	128.143.100.191	E	projects:sensors	sdg6h	Adding test of Cosm/Pachube Graph library	
+1359397850	128.143.100.191	E	projects:sensors	sdg6h		
+1359397999	128.143.100.191	E	projects:sensors	sdg6h	[Sensor Data] 	
+1359398324	128.143.100.191	E	projects:sensors	sdg6h	[Sensor Data] Trying a different script	
+1359398948	128.143.100.191	E	projects:sensors	sdg6h	[Sensor Data] Updating for more data	
+1359399045	128.143.100.191	E	projects:sensors	sdg6h	[Sensor Data] lining up data columns	
+1359399977	128.143.100.191	E	projects:sensors	sdg6h		
+1359400223	128.143.100.191	E	projects:sensors	sdg6h		
+1359400342	128.143.100.191	E	projects:sensors	sdg6h	added column alignment	
+1359400422	128.143.100.191	E	projects:sensors	sdg6h		
+1359400970	128.143.100.191	E	projects:sensors	sdg6h		
+1359401016	128.143.100.191	E	projects:sensors	sdg6h	fixed column alignment	
+1359401095	128.143.100.191	E	projects:sensors	sdg6h		
+1359401865	128.143.100.191	E	projects:sensors	sdg6h	Adding image of graph	
+1359402063	128.143.100.191	E	projects:sensors	sdg6h	Updated temp graph	
+1359402264	128.143.100.191	E	projects:sensors	sdg6h	Add timezone	
+1359402402	128.143.100.191	E	projects:sensors	sdg6h	remved graph legend	
+1359402664	128.143.100.191	E	projects:sensors	sdg6h		
+1359402773	128.143.100.191	E	projects:sensors	sdg6h		
+1359402983	128.143.100.191	E	projects:sensors	sdg6h	Added the other data graphs	
+1359403073	128.143.100.191	E	projects:sensors	sdg6h		
+1359403774	128.143.100.191	E	projects:sensors	sdg6h	Added Light graph	
+1359412556	128.143.100.191	E	projects:sensors	sdg6h	Changed to 2 hour graph and update every 32 sec - same as eImp	
+1359412799	128.143.100.191	E	projects:sensors	sdg6h	Added Battery Voltage	
+1359412862	128.143.100.191	E	projects:sensors	sdg6h	Fixed name of battery voltage	
+1359423107	128.143.100.191	E	projects:sensors	sdg6h	Changed graphs to 4 hours span	
+1359428182	128.143.100.191	E	projects:sensors	sdg6h	Changed graphs to 10 hour span	
+1359478176	128.143.100.191	E	projects:sensors	sdg6h	Updated to 20 hours on graphs	
+1359496514	128.143.100.191	E	projects:sensors	sdg6h	went back to 24 hours on graphs	

@@ -1,0 +1,40 @@
+{{indexmenu>:tips_info|js tsort}}
+====== Tool tips ======
+
+The following tips relate to cable assembly and crimping.
+
+===== BNC Coaxial Connectors =====
+
+We have the following BNC coaxial crimp connectors in the stock room:
+  - Kings [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SD755-114-9.pdf|755-114-9]] for RG-58
+      * Kings recommends to use die [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SDKTH-2001.pdf|KTH-2001]], but we have in the electronics shop [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SDKTH-2061.pdf|KTH-2061]]
+      * The difference b/w the dies is that the KTH-2061 is 0.1" wider and this extra width has a bigger "diameter" for the outer hex crimp.  So it appears to be possible to use a KTH-2061 with a 755-114-9 if care is taken
+      * The draw back is that the outer hex crimp will not be completely crimped near the back of the BNC head
+      * Cabling instructions for this connector: [[http://www.winchesterelectronics.com/CableProcedures/CP-465.pdf|CP-465]]
+      * Cabling instructions for the connector made for this die (KTH-2061): [[http://www.winchesterelectronics.com/CableProcedures/CP-401.pdf|CP-401]]
+  - Amphenol [[http://www.amphenolrf.com/record.asp?N=0&sid=4D9121006E28BCFF&R=031-71008|31-71008]] for RG-59
+    * Amphenol recommended die: [[http://drawings.amphenolrf.com/Tools/227-1221-X.pdf|227-1221-13]]
+    * In the electronics shop is a Kings [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SDKTH-2062.pdf|KTH-2062]] die which may work, once again if care is taken.  The difference between the die sets is similiar as the difference with the above RG-58 die sets
+    * Amphenol [[http://www.amphenolrf.com/pdf/307.pdf|assembly instructions]] for this connector
+    * Amphenol [[http://www.amphenolrf.com/products/AssemblyInstructions/bnc.pdf|general BNC assembly instructions]]
+  - Kings [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SD755-129-9.pdf|755-129-9]] for RG-174
+    * Kings recommends to use die [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SDKTH-2032.pdf|KTH-2032]], but in the electronics shop is the [[http://www.winchesterelectronics.com/CatalogSalesDrawings/SDKTH-2082.pdf|KTH-2082]]
+    * Appears to be able to use KTH-2082 if care is taken with similar caveats as above for RG-58 and RG-59
+    * Cabling instruction for this connector: [[http://www.winchesterelectronics.com/CableProcedures/CP-406.pdf|CP-406]]
+    * Cannot find cabling instructions for the connector made for this die (KTH-2082)
+
+
+
+
+
+
+
+
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag>cabling crimpers rg58 rg59 rg62}}

@@ -1,0 +1,8 @@
+1290550642	128.143.100.65	C	tips_info:qr_code_in_pcb_artist	sdg6h	created	
+1290551481	128.143.100.65	E	tips_info:qr_code_in_pcb_artist	sdg6h		
+1290553199	128.143.100.65	E	tips_info:qr_code_in_pcb_artist	sdg6h		
+1291147987	128.143.100.65	e	tips_info:qr_code_in_pcb_artist	sdg6h	added tags	
+1291915847	128.143.100.65	e	tips_info:qr_code_in_pcb_artist	sdg6h	moved tags to bottom of page & had to remove 'noscroll' from indexmenu for it to show up now that tags moved	
+1294253377	128.143.100.65	E	tips_info:qr_code_in_pcb_artist	sdg6h	added warning that the settings below failed to create a usable QR code	
+1294257779	128.143.100.65	e	tips_info:qr_code_in_pcb_artist	sdg6h	added scale factor that will attempt next time	
+1333556387	128.143.100.210	E	tips_info:qr_code_in_pcb_artist	las2xa	[Inserting a QR code into PCB Artist Layout] 	

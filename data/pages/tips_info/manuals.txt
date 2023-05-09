@@ -1,0 +1,27 @@
+{{indexmenu>:tips_info|js tsort}}
+====== Manuals at UVa Physics ======
+
+===== Meters and Tools =====
+|{{:tips_info:a350irthermometermanual_4687228.pdf|A350 IR Thermometer Gun}}|{{:tips_info:paladincrimpers.pdf|Paladin crimpers}}|
+|{{:tips_info:dm6802a-plus.pdf|DM 6802A Digital Temperature meter}}|{{:tips_info:soldapullt.pdf|Soldapullt}}|
+|{{:tips_info:smart-smd_meter.pdf|Smart SMD meter}}|{{:tips_info:greenlee_k111.pdf|Greenlee K111 Crimpers}}|
+|{{:tips_info:fluke-80k-400001.pdf|Fluke HV Probe}}|{{:tips_info:hammercrimperm.pdf|Hammer Crimper}} |
+
+===== NIM Modules =====
+|{{:tips_info:phillips_scientific_quad_gate_delay_unit_model_794.pdf|Phillips Scientific Quad Gate Delay Unit (model 794)}}|| 
+|{{:tips_info:ortec_gate_and_delay_module_model_416.pdf|Ortec Gate and Delay Module (model 416)}} ||
+
+
+ ===== MSDS =====
+|{{:tips_info:msds-red-x-coronadope.pdf|MSDS: GC Electronics RED-X CORONA DOPE}}|| 
+
+
+
+ 
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag>"manuals" "tools" "thermometer" "desoldering" "nim" gate delay generator}}

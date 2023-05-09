@@ -1,0 +1,72 @@
+==== Countdown Plugin Changelog ====
+
+2019-01-13  Luis Machuca Bezzaza
+
+    * Version: 2.6.
+    * syntax.php: Removed getInfo() in favor of DW native.
+    * syntax.php: PHP >= 7.0 function prototype warnings fixed by Stefan Huehner.
+    * The plugin is now moved to a version control.
+
+2011-03-07  Luis Machuca Bezzaza 
+
+    * Version: 2.5rc2
+    * cleaner code
+    * syntax.php: Corrected a "one day remaining" bug as notified in wikipage.
+    * syntax.php: Substituted <strong> container by simple <span class...> one.
+    * syntax.php: Beta support for business days.
+    * syntax.php: Beta support for notifying the server's wall time.
+    * syntax.php: Beta support for text renderer.
+    * plugin.info.txt: Added.
+    * conf/metadata.php: Added.
+    * ChangeLog: Added.
+    * Added localized plugin description.
+
+2009-12-18  Luis Machuca Bezzaza 
+
+    * Version: 2.5rc
+    * Under new management.
+    * lang/: Spanish language file <Luis Machuca Bezzaza>.
+    * lang/: Brazilian Portuguese language file <Adirson Maguila>.
+    * lang/: Czech language file <Roman Šilar>.
+    * syntax.php: Use getLang, getConf interface.
+    * syntax.php: Display hr/min in countdown message.
+
+2009-01-24  Ekkart Kleinod
+
+    * Version: 2.1.3
+    * lang/: French language file <unknown>.
+
+2008-07-20  Ekkart Kleinod
+
+    * Version: 2.1.2
+    * lang/: Estonian language file <unknown>.
+
+2008-04-17  Ekkart Kleinod
+
+    * Version: 2.1.1
+    * lang/: Polish language file <unknown>.
+    * lang/: Swedish language file corrected.
+
+2008-03-04  EKkart Kleinod
+
+    * Version: 2.1
+    * bugfix: No newline after "?>" (Warning: Cannot modify header information...)
+    * syntax.php: computation of days with ceil (problem with 1 day into future)
+    * conf/default.php: new variable 'use_today'
+
+2008-02-20  Ekkart Kleinod
+
+    * Version: 2.0.1
+    * lang/: Swedish language file <unknown>.
+
+2008-02-18 Ekkart Kleinod
+
+    * Version: 2.0
+    * syntax.php: enhanced input (using strtotime, and therefore GNU date formats)
+    * syntax.php: optional output of entered date
+    * conf/default.php: optional output of entered date
+
+2008-02-18 Paul Peters
+    * Version: 1.0
+    * based on a nucleuswiki plugin by Trent Adams | Edmond Hui
+    * basic input functionality

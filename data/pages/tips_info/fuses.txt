@@ -1,0 +1,23 @@
+{{indexmenu>:tips_info|js tsort}}
+===== Fuse types commonly in stock (**) =====
+=== 3AG (6.3x32mm) ===
+== 312 - 3AG size Cartridge Glass - FAST (UL) ==
+== 313 - 3AG size Cartridge Glass - SLOW (UL) ==
+=== 5x20mm ===
+== 235 - 5x20mm size Cartridge Glass - FAST (UL) ==
+== 239 - 5x20mm size Cartridge Glass - SLOW (UL) ==
+=== 3AB (6.3x32mm) ===
+== 314 - 3AB size Cartridge Ceramic - FAST (UL) ==
+
+[[http://www.littelfuse.com/products/fuses/cartridge-fuses/discontinued/~/media/Files/Littelfuse/Technical%20Resources/Documents/Obsoletion%20Notices/MILOBS_Replacements.pdf|Discontinued/Soon to be Obsolete fuses]]
+
+{{:tips_info:Littelfuse_fuseology_selection_guide.pdf.pdf|Littelfuse Fuseology Selection Guide 2014}}
+
+Data from Littelfuse http://www.littelfuse.com/
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+<html><br/></html>
+{{tag>"Circuit Protection" "Fuse types" Fuses "Physics stock"}}

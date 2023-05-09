@@ -1,0 +1,5 @@
+Common Tags:
+~~TAGCLOUD:10~~
+
+Common Searches:
+~~SEARCHCLOUD:10~~

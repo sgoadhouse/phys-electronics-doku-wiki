@@ -1,0 +1,59 @@
+
+{{indexmenu>:projects|js tsort}}
+
+====== In-Amplifier with PASCO Interface ======
+This project created a basic instrumentation amplifier circuit design to be used with the PASCO Science Workshop instrumentation interfaces used in the Physics teaching labs. However, this design can be easily modified to work stand alone.
+
+In addition to an instrumentation amplifier from Analog Devices, a dual voltage comparator and an Atmel AVR 8-bit microcontroller are used within the design. The design can be used without the microcontroller for very basic control of the gain setting with the voltage comparator. However, more interesting gain control can be done with the microcontroller. The microcontroller can also be used as a function generator, with the instrumentation amplifier sending the generated function to the output instead of an amplified external input.
+
+Applications of this design:
+  * instrumentation amplifier
+    * input/output voltage range of +/-12V
+    * low-pass filter on input set to 3dB cutoff of 1MHz
+      * can change or remove filter altogether through manual component changes
+    * selectable gains of 1x, 10x, 100x and 1000x
+      * gain selected with PASCO Input Adapter (#CI-6508) gain switch
+      * gain optionally selected via shunt jumpers
+      * gain selection also programmable via microcontroller
+  * dual voltage comparator
+    * input/output voltage range of 0-12V
+  * function generator
+    * requires programming of the Atmel AVR 8-bit microcontroller
+  * basic small, embedded microcontroller
+    * only requires 5V
+    * includes 16MHz crystal
+    * uses instrumentation amplifier as a high-impedance input amplifier
+
+===== Design Data =====
+
+Here is the schematic and layout data for this design.  No guarantee of proper operation of this circuit is made, although I've done my best with its design.
+
+<note important>This design //has// been built and verified. If interested, [[about:contact|contact us]] to find out how you can order one.</note>  
+
+Advanced Circuits' [[http://www.4pcb.com/free-pcb-layout-software/|PCB Artist]] tool was used for schematic and layout.  Unfortunately, their tool is only for the Windows "OS".  I personally design on a Mac with OSX and need to run Windows 7 in a VM.  However, the ease of designing a board that is inexpensive for Advanced Circuits to build ($33/each for 4+ boards) is a great plus of the tool and it being freely available is why I chose to use it for this simple design.  It is also one of the easiest CAD/CAM tools I have used.  The user interface works very well and is quick to learn.
+<html><br/><br/></html>
+
+{{:projects:pasco_inamp.zip|All PCB Artist design files in a single ZIP archive}}
+
+<html><br/><br/></html>
+Other files of interest:<html><br/></html>
+{{:projects:pasco_inamp_v2_schematic.pdf|Schematic (PDF)}}<html><br/></html>
+{{:projects:pasco_inamp_v2_bill_of_materials_ref_des_csv_.xlsx|Bill Of Materials (Excel .xlsx)}}<html><br/><br/><br/></html>
+
+Image of the PCB:<html><br/></html>
+{{:projects:pasco_inamp_v2_assembly.png|PCB image}}<html><br/></html>
+
+===== Ideas for Future Changes =====
+
+{{:projects:10263-03_i_ma.jpg|Rotary DIP Switches with Knobs}}
+
+Instead of using the 2x8 header with shunt jumpers for selecting the gain sources, perhaps two [[http://www.sparkfun.com/products/10064|rotary DIP switches]] from [[http://www.sparkfun.com/|Sparkfun]] work better?  The price difference is a bit more and they are bigger than the 2x8 header.  Is it worth sliding the voltage comparator to the left in layout to fit these?  It would be nice to have [[http://www.sparkfun.com/products/10263|the knobs]] too and they don't appear to take up much more space that the switches themselves.  It would be $8 for two switches with knobs vs. $1.50 for the header + shunts.  The rotary switches are cute, though.
+
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag>instrumentation amp amplifier AVR ATTiny "Analog Comparator" PASCO "PCB Artist" schematic layout PCB}}

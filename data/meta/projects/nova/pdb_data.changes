@@ -1,0 +1,31 @@
+1298063633	128.143.100.65	C	projects:nova:pdb_data	sdg6h	created / Added Google Spreadsheet gadgets	
+1298065015	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Added iGadgets for Power Supply Data	
+1298066040	128.143.100.65	E	projects:nova:pdb_data	sdg6h	changed width of iGadgets	
+1298066306	128.143.100.65	E	projects:nova:pdb_data	sdg6h		
+1298066334	128.143.100.65	E	projects:nova:pdb_data	sdg6h		
+1298066666	128.143.100.65	E	projects:nova:pdb_data	sdg6h	changed width of iGadgets	
+1298505301	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Added python script files and description of what's going on	
+1298505655	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Power Supply Data] remove superfluous '|'	
+1298505933	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Power Supply Data] Mentioned MIB file and perhaps have to modify the mib variable or remove all snmpget stuff.	
+1298505992	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[NOvA NDOS Power Supply Data Graphs] 	
+1298506154	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[NOvA NDOS Power Supply Data Graphs]  Added headers to each graph	
+1298506421	128.143.100.65	E	projects:nova:pdb_data	sdg6h	modified headers to fit in ToC	
+1298938045	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Power Supply Data] Updated for updated script file	
+1298938493	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Moved bulk of text below the iGadgets	
+1298938536	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Power Supply Data] fixing link to text below	
+1298938832	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Power Supply Data] 	
+1299080154	172.25.132.250	e	projects:nova:pdb_data	sdg6h	[Data Collection Python Script: sendWienerData] Fixed the '>>' display issue 	
+1302100975	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Added new Gadgets for Muon Catcher	
+1302101245	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Added TEC Voltages for Muon Catcher	
+1302101486	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Updated iGadget widths	
+1302101793	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Currents for FEBs (3.3V)] Adding FEB Current iGadget	
+1302101890	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Currents for TECs (24V)] Adding TEC Current iGadget	
+1302101971	128.143.100.65	E	projects:nova:pdb_data	sdg6h	reordered new iGadgets so that current follows voltage	
+1302294545	128.143.100.65	E	projects:nova:pdb_data	sdg6h	Added High Voltage Power Supply information	
+1302296608	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Voltages for APDs (High Voltage)] fixed height and width	
+1302296979	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Currents for APDs (High Voltage)] fixed height and width	
+1302297484	128.143.100.65	E	projects:nova:pdb_data	sdg6h	removed old iGadgets since page is frequently crashing - moved to other page	
+1302297994	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Voltages for APDs (High Voltage)] Updated to iGadget without Sense voltages since they are a copy of the terminal voltages	
+1302298016	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Voltages for APDs (High Voltage)] fixed height and width	
+1302707155	128.143.100.65	E	projects:nova:pdb_data	sdg6h	[Currents for APDs (High Voltage)]  Tried to fix gadget not showing up	
+1309872363	65.40.217.226	E	projects:nova:pdb_data	sdg6h	fixed typo: cronjob -> crontab	

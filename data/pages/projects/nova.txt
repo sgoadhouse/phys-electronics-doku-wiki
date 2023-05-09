@@ -1,0 +1,8 @@
+{{indexmenu>:projects|js tsort}}
+====== NOvA ======
+While waiting for information about this project to materialize in this space, check out this related article at [[http://www.virginia.edu/uvatoday/newsRelease.php?id=13656#|UVa Today]].
+
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].

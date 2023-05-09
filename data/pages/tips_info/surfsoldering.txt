@@ -1,0 +1,28 @@
+{{indexmenu>:tips_info|js tsort}}
+
+====== Surface Mount Soldering Tools ======
+
+===== Tools we use in the Electronics shop for Surface mount soldering ===== 
+
+[[https://www.sparkfun.com/products/12573|Clamping tweezers]]
+
+[[https://www.sparkfun.com/products/10603|Straight tweezers]]
+
+[[https://www.digikey.com/en/products/detail/sra-soldering-products/AO888A/10709792|Soldering station (hot air and iron)]]
+
+[[https://www.digikey.com/en/products/detail/chip-quik-inc/TS391AX/7802225|Temp stable Soldering paste]]
+
+[[https://www.digikey.com/en/products/detail/kester-solder/83-1000-0951/95158|Soldering Flux Pen, 951, No Clean]]
+
+[[https://www.amazon.com/CHEMTRONICS-80-1-10-Braid-DESOLDERING-Rosin/dp/B0015X8W06/|Solder Wick]]
+
+[[https://amscope.com/products/sm-3b-80s|7x-45x Zoom Stereo Microscope on boom stand with 80 LED illumination ring]]
+
+[[https://www.adafruit.com/product/1209|ESD-Safe PCB Cleaning Brush]]
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+<html><br/></html>
+{{tag>"Surface Mount" tools "pcb rework" reflow}}

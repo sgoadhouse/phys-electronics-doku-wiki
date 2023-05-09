@@ -1,0 +1,41 @@
+{{indexmenu>:tips_info|js tsort}}
+
+====== Inserting a QR code into PCB Artist Layout ======
+
+<note warning>Now that the PCB boards have been received, these instructions unfortunately create a QR code too small to scan via iPhone and probably most other cellphones/handheld devices.  According to [[http://www.prepressure.com/library/technology/qr-code|this excellent page on QR codes]], it needs to be 1" square with the possibility of 0.4" square working on a few devices.  This one was 0.325" square once printed.
+
+It is recommended that the Scale factor during import into PCB Artist be increased in order to produce a QR code that is at least 0.5" square and maybe larger.  A scale factor of 155, instead of the 100 recommended below, should be sufficient in this case. 
+
+Will attempt a scale factor of 140 for a size of 0.46" square (biggest size that can fit on this particular board).
+
+However, note that this has not yet been attempted.
+</note>
+
+This is a rather specific topic but may be applicable to trying to get an image into a layout tool. Most layout tools, like PCB Artist, only allow import of DXF vector graphic files. PNG, JPG, GIF and the like are raster graphic files, so they must be converted. This is not as simple as it seems that it should be. [[http://www.rastervect.com/|RasterVect]] is a Windows-Only solution that works surprisingly well, even in Windows 7. I used the Free version which did everything I need.
+
+First, create the QR code or find the graphic you want to import. QR codes can be created at various places online, including [[http://www.qurify.com|Qurify]]. The default size of 100x100 pixels works.
+
+Download the created PNG file and open it in RasterVect. The first step is to make it bigger. Go to Raster->Resample and enter __1000__ for Width. Height should automatically change to __1000__ as well to maintain aspect ratio. Resolution can remain __300__. //__Make sure that Filter is set to NONE.__// Click OK.
+
+If your graphic is something other than a QR code, you may need to try different Filter settings to improve the process. You may even need to use Raster->Extrapolation instead.
+
+Now, to convert to a vector graphic, go to Recognition->Options. Set the recognition method to __Solids__, which is the only option with the free version of RasterVect. Select __Convert image to 1-bit and vectorize it__. This assumes you have a simple black and white image like a QR code. Select variant setting of __Horizontal Lines__, which seems to work best with QR codes. Click the OK button. Now go to Recognition->Start. Select the __Convert image into 1-bit__ button. The transformation should look fine, so click OK. At this point, you should have a vector image that is colored blue. The Raster menu should go to grey and the Vector menu should now be enabled.
+
+Save the new vector graphic with File-> Save Vector File. Choose the Save as type of __AutoCAD R12/R10 DXF (*.dxf)__. Type in an appropriate file name and click the Save button.
+
+To load into PCB Artist, switch to PCB Artist and choose File->Import and select the new *.dxf vector graphic file. The DXF Import window appears. __Set Scale to 100__ (at least that worked best for me). You may want to "Set Import This Layer" under "Text Items" to __No__ as there should be no text items within the DXF file. You may also want to click the box next to "Align DXF (0,0) to Origin" so the graphic will appear at the origin of your board. One note of caution is that by doing this, when the graphic appears, it may be on top of other lines within the Top Silkscreen layer and make repositioning it difficult. By not selecting this box, the graphic should appear at the origin of the page, which is hopefully out of the way but can be frustrating to fully select. You can also import into the Documentation1 layer, then move the imported graphic to the desired location, go to the Properties dialog and change the layer of the lines that make up the graphic to Top Silkscreen. Your mileage may vary. See the below window grab to help with setting of the options on the DXF Import window.
+
+{{:dxf_import.png|}}
+
+Click the OK button. It may take several minutes, and you may believe that the program is no longer responding, but go get some coffee or other time consuming activity and come back. Eventually, you should see your graphic in the Top SilkScreen layer, or whatever layer you selected in the DXF Import window.
+
+Here is the final product.
+{{:pasco_inamp_with_qr.png|}}
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag>"QR code" "PCB Artist" Import Graphic PCB Layout Raster Vector PNG DXF}}

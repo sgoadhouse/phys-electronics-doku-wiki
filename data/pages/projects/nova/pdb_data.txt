@@ -1,0 +1,125 @@
+{{indexmenu>:projects|js tsort}}
+
+====== Power Supply Data ======
+
+The Near Detector for the NOvA project currently makes use of nine Wiener PL506 power supplies.  These power supplies have an ethernet interface but because of security, they are all locked safely behind a firewall within Fermilab's network. However, we need access to the data at the Univ. of Virginia.  The solution I developed was to make use of Google Spreadsheets as data storage within the internet cloud.  Almost all of Google's services have a xml-based API for access and control of their data.  Making use of a Python library for the Google Spreadsheet API, I created a script that runs on a computer at Fermilab every few minutes.  It reads all of the data from the power supplies, formats the data and then sends it to a Google Spreadsheet with all of the data entered into a single row.  New data is always entered in the last row of the spreadsheet.  Below, you will find iGadgets from Google which provide graphical access to the data.  Following the iGadgets is a description of the script file and other resources used to collect the data.  A gzipped tar file of the python script is also available [[pdb_data#data_collection_python_script:_sendwienerdata|below]].
+
+===== Voltages for FEBs (3.3V) =====
+<html>
+
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DFEB%2520Voltages%26up_scale%3Dfixed%26up_values_suffix%3DV%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets1.google.com%252Ftq%253Frange%253DBW%25253ACU%2526key%253D0Agddt5rhnXLGdDVEbWdKSnZQV3l6X1dyQ181eEZvU0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+<br/>
+</html>
+
+===== Currents for FEBs (3.3V) =====
+<html>
+
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DFEB%2520Currents%26up_scale%3Dfixed%26up_values_suffix%3DA%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets1.google.com%252Ftq%253Frange%253DDU%25253AES%2526key%253D0Agddt5rhnXLGdDVEbWdKSnZQV3l6X1dyQ181eEZvU0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+<br/>
+</html>
+
+
+===== Voltages for TECs (24V) =====
+<html>
+
+
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DTEC%2520Voltages%26up_scale%3Dfixed%26up_values_suffix%3DV%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets1.google.com%252Ftq%253Frange%253DCV%25253ADT%2526key%253D0Agddt5rhnXLGdDVEbWdKSnZQV3l6X1dyQ181eEZvU0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+<br/>
+</html>
+
+===== Currents for TECs (24V) =====
+<html>
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DTEC%2520Currents%26up_scale%3Dfixed%26up_values_suffix%3DA%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets1.google.com%252Ftq%253Frange%253DET%25253AFR%2526key%253D0Agddt5rhnXLGdDVEbWdKSnZQV3l6X1dyQ181eEZvU0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+<br/>
+</html>
+
+
+===== Power Supply Temperatures =====
+<html>
+
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DPower%2520Supply%2520Temperature%26up_scale%3Dfixed%26up_values_suffix%3DC%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets.google.com%252Ftq%253Frange%253DAX%25253ABV%2526key%253D0Agddt5rhnXLGdDVEbWdKSnZQV3l6X1dyQ181eEZvU0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+<br/>
+</html>
+
+===== Voltages for APDs (High Voltage) =====
+<html>
+
+<script src="https://spreadsheets.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DVoltage%26up_scale%3Dfixed%26up_values_suffix%3DV%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets.google.com%252Ftq%253Frange%253DAM%25253AAY%2526key%253D0Agddt5rhnXLGdG15THBKenpENU1rQmNhR3lWNVZyV1E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+<br/>
+</html>
+
+===== Currents for APDs (High Voltage) =====
+<html>
+
+<script src="https://spreadsheets0.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DHV%2520Currents%26up_scale%3Dfixed%26up_values_suffix%3DA%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets0.google.com%252Ftq%253Frange%253DAZ%25253ABX%2526key%253D0Agddt5rhnXLGdG15THBKenpENU1rQmNhR3lWNVZyV1E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+
+<br/>
+</html>
+
+===== Power Supply Temperatures (HV) =====
+<html>
+<script src="https://spreadsheets1.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DTemperature%26up_scale%3Dfixed%26up_values_suffix%3DC%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets1.google.com%252Ftq%253Frange%253DZ%25253AAL%2526key%253D0Agddt5rhnXLGdG15THBKenpENU1rQmNhR3lWNVZyV1E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+<br/>
+</html>
+
+
+===== Power Supply Temperatures [OLD] =====
+<html>
+<script src="https://spreadsheets.google.com/gpub?url=http%3A%2F%2Ftbaoebshgeq225lhq2bam0m0a5mf6u0b-ss-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Fup_title%3DTemperature%26up_scale%3Dfixed%26up_values_suffix%3DC%26up_annotations_width%3D25%26up_display_zoom_buttons%3D1%26up_display_exact_values%3D1%26up_display_annotations_filter%3D0%26up_display_legend_inNewline%3D1%26up__table_query_url%3Dhttps%253A%252F%252Fspreadsheets.google.com%252Ftq%253Frange%253DAL%25253ABD%2526key%253D0Agddt5rhnXLGdGp3VU5TOUxiWHBMQzBzZnVoRHV2d0E%2526gid%253D0%2526pub%253D1%26url%3Dhttp%253A%252F%252Fwww.google.com%252Fig%252Fmodules%252Ftime-series-line.xml%26spreadsheets%3Dspreadsheets&height=400&width=750"></script>
+
+</html>
+
+===== Data Collection Python Script: sendWienerData =====
+
+This is still a bit of an experiment.  As I have discovered first-hand, Google has a limit of 400,000 cells per spreadsheet.  This spreadsheet uses 150 columns so that's only 2666 available rows.  Each row represents 3 minutes, so we can currently store a total time log of 8000 minutes or 133 hours or 5.5 days.  It is very likely that the data will need to be broken up into separate spreadsheets, grouping voltage data together, current data together and status data together.  This has not happened yet.  However, the script that sends the data now checks the number of rows in the spreadsheet first and deletes the top-most row, or oldest data, before adding new data.  So the cell limit no longer stops the collecting of data, but data that is 5.5 days old is being thrown away.  That may be fine for our purposes.
+
+If interested, {{:projects:nova:sendwienerdata.tgz|here is a gzipped tar file}} of the python script (sendWienerData), a crontab file for causing the script to be run every 3 minutes (sendWienerData.cron) and a shell script which is required to interface cron with the python script (sendWienerData.sh).  (NOTE: I now spell 'Wiener' correctly).  After downloading and unpacking the archive, place all three files in your path on a linux computer.  You'll need to install the [[http://code.google.com/p/gdata-python-client/|python library for the Google Spreadsheet API]].  I used version 2.0.13 of the gdata package.  I am using Python 2.4.3 so you may need to modify the python script if using a different version of Python (Python is notoriously bad at adding and removing features between versions).  You may need some other python packages as well, like 'subprocess'.  
+
+To access a google spreadsheet, you will need a username and password.  These are encoded with base64 and stored in an external file.  So you will need to create the folder ~/sendWienerErrors in your home directory and create a file named sendWiener.ini within that folder.  This file must have the password and username encoded with base64 with the password on the first line and username on the second line.  You can create this file using the following commands:
+
+''$ base64 > ~/sendWienerErrors/sendWiener.ini\\
+mystrongpw\\
+<press Ctrl-D>\\
+$ base64 ''>''''>'' ~/sendWienerErrors/sendWiener.ini\\
+user@domain.com\\
+<press Ctrl-D>\\
+''
+
+If you had the above password and username, your file would look like this:
+
+''$ cat sendWiener.ini\\
+bXlzdHJvbmdwdwo=\\
+dXNlckBkb21haW4uY29tCg==\\
+''
+
+If you have similar Wiener power supplies, you'll need to modify the ''mib'' variable in the python script to point to your MIB file so that ''snmpget'' can properly access the power supply.  If you are collecting some other data, then you'll want to remove all of the uses of snmpget and come up with your own python code to acquire the data.
+
+After making the above adjustments to the python script, keep trying to execute sendWeinerData and fixing issues that python complains about.  Some errors with communicating with Google get stored in a log file under ''~/sendWienerErrors'' so be sure to check there as well. You may also need to adjust the ''$PATH'' in ''sendWeinerData.sh''.  When cron runs its 'payload' it does not setup the shell environment variables that are typically available at a command-line, so these variables need to be setup in sendWeinerData.sh.  Be sure to test executing from this shell script.  Once everything works, the cron job can be started by executing: \\
+
+''$ crontab sendWeinerData.cron
+''
+
+If you ever need to stop the cron job, use: \\
+
+''$ crontab -r
+''
+
+If you want to check that it is still enabled, use: \\
+
+''$ crontab -l
+'' 
+
+Any output to stderr gets emailed to your linux user and you need to use the '''mail''' command to view it.  This should not happen with the logging that got added recently.
+
+That's all there is to it! :-)
+
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].

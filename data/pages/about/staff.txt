@@ -1,0 +1,11 @@
+{{indexmenu>:about|js tsort}}
+====== Staff ======
+The Electronics Shop is staffed by Electronics Engineer, Stephen Goadhouse, and Electronics Technician, Larry St. John.
+
+To contact either staff member, please use the [[about:contact|contact form]]. 
+
+Alternatively you may phone Stephen at __434-982-5594__ or phone Larry at __434-924-6807__.
+
+//Come back to this page later to find full profiles on our staff.//
+
+

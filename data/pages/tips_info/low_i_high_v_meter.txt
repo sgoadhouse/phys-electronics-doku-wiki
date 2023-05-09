@@ -1,0 +1,28 @@
+{{indexmenu>:tips_info|js tsort}}
+
+====== How to measure a Very Low Current at A Very High Voltage ======
+
+In the high-energy physics world, it is very common to need to measure a very low current, down in the nanoamps, at a very high voltage, say 800VDC.  [[http://en.wikipedia.org/wiki/Avalanche_photodiode|Avalanche Photo Diodes]] and [[http://en.wikipedia.org/wiki/Photomultiplier|Photomultiplier tubes]], as well as other detectors, often require a rather large voltage bias while only consuming a tiny current. This is not a task directly suited for your run-of-the-mill handheld digital multimeter.
+
+===== Do-It-Yourself =====
+One option, if high precision is not required, is to build a box with a series resistor on either the source, the ground or both, depending on your measurement needs.  Add terminals across the resistor(s).  These terminals will be used with a multimeter to measure the voltage drop.  From the voltage drop measurement, you can compute current from Ohm's Law.
+
+The resistor(s) should be sized so that your lowest current desired scales to roughly 10 mV.  For example, if you want to measure 1 nanoamp, use a 10M ohm resistor.  1e-9 A * 1e6 ohms = 10 mV.  The power rating of the resistor will need to be checked such that the maximum expected current squared times the resistor value is not over the power rating of the resistor (I^2 * R must be < W).  Higher powered resistors are generally more preferred in this case because they are also in general rated for a higher voltage.  
+
+Under normal use, the voltage rating will not matter because there will be a very low voltage drop across the resistor.  However, if a multimeter probe hits a ground source while trying to measure the voltage drop across the resistor, and if the resistor is not rated for the full voltage range of the source, expect a loud noise.  __In fact, with such high voltages, be VERY, VERY, VERY careful while measuring the voltage drop.__ Any slip of the probes could cause destruction of the resistor, or destruction of your multimeter or destruction of some of your nerve and muscle cells. __//It is possible that this could even be lethal!//__  The use of banana jacks on your resistor box will allow the probes to be held in place without the need to manually hold them.  You can be safely out of harm's way when you apply power. __//Please do not try this unless you are confident that you know what you are doing!//__
+
+===== Throw $$$ At It =====
+If you need to make lots of current measurements like this and would even like to automate the process via LabView or your own programming, another option, although quite expensive, is to purchase a [[https://www.tek.com/en/products/keithley/digital-multimeter/2001-series|Keithley model 2001]] bench-top digital multimeter. It has a maximum input voltage rating of 1100 VDC and claims that it can measure with 100 pA resolution at the lowest current measurement range! A slightly less costly  [[https://www.tek.com/en/products/keithley/digital-multimeter/keithley-2000-series-6-digit-multimeter-scanning|Keithley model 2000]] can handle up to an input voltage of 1000 VDC and measure currents with a minimum resolution of 10 nA when using the lowest current measurement range.
+
+The Electronics Shop owns a Keithley model 2000 and it is available to borrow if you only need to make a few measurements and its lower ratings fit your needs. 
+
+Another option, if you need to make lots of measurements but don't want to purchase one of these multimeters, is to rent them.  Outfits like [[https://www.testunlimited.com/productDetail.aspx?product_id=2691#|TestUnlimited]] or [[http://www.testequipmentconnection.com/index.php?main_page=lease|Test Equipment Connection]] will rent or lease test equipment such as this. They may even offer educational discounts.
+
+Of course, the dangers of working with high voltage are still present even when using an off-the-shelf measurement device such as these.   __//It is possible that making a mistake during the measurements could even be lethal!//__  Please do not try this unless you are confident that you know what you are doing!  If possible, connect the test probes so that they do not need to be manually held. This allows you to make the connections with power off and then step out of the way when you apply power.  __//Be Smart with High Voltage!//__
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+<html><br/></html>
+{{tag>"low current" "high voltage" nanoamp apd pmt "avalanche photo" "photomultiplier" Keithley multimeter rent lease}}

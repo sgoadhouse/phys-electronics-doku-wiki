@@ -1,0 +1,29 @@
+{{indexmenu>:tips_info|js tsort noscroll}}
+====== Resistor Color Codes Info ======
+
+Here is a simple diagram of the resistor color codes 
+(Thanks to Marlin P. Jones & Assoc. Inc. for this diagram)
+
+{{:tips_info:rcc.png?250|Resistor Color Codes Info}}
+
+====== Standard Resistor Values ======
+
+== Electrical Engineering Community ==
+[[https://www.eeweb.com/tools/resistor-tables/|Resistor Tables - Standard Resistor Tables (Based on EIA Preferred Values)]]
+
+== Wikipedia ==
+[[https://en.wikipedia.org/wiki/Resistor|Resistors]]
+
+
+== Marlin P. Jones and Assoc. Inc. ==
+{{:tips_info:standard_resistor_values.pdf|MPJA-Standard Resistor Values}}
+
+
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag> resistor "resistor color code" standard code table}}

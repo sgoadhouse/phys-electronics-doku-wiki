@@ -1,0 +1,7 @@
+base   countdown
+author Ron Peters, Ekkart Kleinod, Luis Machuca Bezzaza
+email  lambalicious [at] tuta [dot] io
+date   2020-11-01
+name   Countdown Plugin
+desc   Countdown to a specific date
+url    http://dokuwiki.org/plugin:countdown

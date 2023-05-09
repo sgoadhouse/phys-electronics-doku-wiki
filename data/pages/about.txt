@@ -1,0 +1,8 @@
+{{indexmenu>:about|js tsort noscroll}}
+
+====== About Us ======
+The Electronics Shop within the Physics Dept. at the Univ. of Virginia is staffed by Electronics Engineer, Stephen Goadhouse, and Electronics Technician, Larry St. John. We are proud members of the [[http://www.phys.virginia.edu/Administration/TSF/|Technical Services Facility]].
+
+For information on our billed rates, please see the [[http://www.phys.virginia.edu/Administration/TSF/#Electronics|Electronics Shop]] information at the Technical Services Facility web page.
+
+To request electronics support, please use the [[about:contact|contact form]] or call Stephen at __434-982-5594__.

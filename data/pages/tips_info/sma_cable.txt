@@ -1,0 +1,24 @@
+{{tag>Semi-Rigid Flexible Cable Amphenol Astrolab SMA Connector}}
+
+{{indexmenu>:tips_info|js tsort noscroll}}
+
+
+====== Making a Semi-Rigid or Flexible Cable with SMA Connectors ======
+This may be a useful resource if you find that you need to make a semi-rigid or flexible cable with SMA connectors on the ends; you may have the parts but no instructions on what to do with them.
+
+The information is undoubtably related to [[http://www.amphenolrf.com|Amphenol's]] connectors but it may be applicable to other brands such as [[http://www.astrolab.com|Astrolab]].
+
+This document is lengthy and covers various different cable types, so search for semi-rigid if that interests you.
+<html><br/><br/></html>
+<box 43% round blue|Amphenol SMA Assembly Instructions>[[http://www.amphenolrf.com/pdf/sma.pdf]]</box>
+<html><br/><br/></html>
+
+If you do have a connector made by [[http://www.astrolab.com|Astrolab]], their assembly instructions do exist, but are not publicly available on their website. You may have luck contacting [[http://www.minibend.com/direct.asp|Astrolab sales]] and requesting the //assembly instructions// for a particular part number, like 29044-1. The sales representatives are listed [[http://www.minibend.com/direct.asp|here]] or perhaps [[http://www.minibend.com/contactus.asp|their contact form]] works as an alternative. Contacting [[http://www.minibend.com/direct.asp|Astrolab sales]] has been successful in the past.
+
+===== Need More Information? =====
+
+For more information, please contact us through our [[about:contact|contact page]].
+
+
+<html><br/></html>
+{{tag>"Cabling" "SMA"}}

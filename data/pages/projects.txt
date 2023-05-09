@@ -1,0 +1,4 @@
+====== Projects ======
+The Electronics Shop within the Physics department at the University of Virginia is involved in various types of electronic projects. Some of these projects are highlighted below along with useful information pertaining to each project.
+
+{{indexmenu>:projects|js tsort noscroll}}
